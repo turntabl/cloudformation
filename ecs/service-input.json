@@ -1,0 +1,8 @@
+[
+    {"ParameterKey": "StackName", "ParameterValue": "TurntablStack"}, 
+    {"ParameterKey": "ServiceName", "ParameterValue": "chess"},
+    {"ParameterKey": "ImageUrl", "ParameterValue": "francisbilla/chess:latest"},
+    {"ParameterKey": "ContainerPort", "ParameterValue": "5004"},
+    {"ParameterKey": "Path", "ParameterValue": "/chess/*"}, 
+    {"ParameterKey": "Priority", "ParameterValue": "15"}
+]

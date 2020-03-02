@@ -1,0 +1,28 @@
+{   "family": "<service-name>",
+    "containerDefinitions": [
+      { 
+        "environment": [
+          {
+            "name": "NAME",
+            "value": "same value"
+          },
+          {
+            "name": "NAME",
+            "value": "same value"
+          }
+        ],
+        "portMappings": [
+          {
+            "containerPort": 80000,
+            "hostPort": 0,
+            "protocol": "tcp"
+        }
+        ],
+        "name": "<service-name>",
+        "image": "<image-url>",
+        "cpu": 256,
+        "memory": 100,
+        "essential": true
+    }
+    ]
+}
