@@ -109,7 +109,7 @@
         "Type" : "container",
         "ContainerProperties" : {
           "Image" : { 
-	    "Fn::Join": [ "", [ "137112412989.dkr.ecr.", { "Ref" : "AWS::Region" }, ".amazonaws.com/amazonlinux:latest" ]] 
+	    "Fn::Join": [ "", [ "926377470665.dkr.ecr.", { "Ref" : "AWS::Region" }, ".amazonaws.com/amazonlinux:latest" ]] 
 	  },
           "Vcpus" : 1,
           "Memory" : 1000,
