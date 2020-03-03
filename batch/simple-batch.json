@@ -108,12 +108,10 @@
       "Properties" : {
         "Type" : "container",
         "ContainerProperties" : {
-          "Image" : { 
-	    "Fn::Join": [ "", [ "926377470665.dkr.ecr.", { "Ref" : "AWS::Region" }, ".amazonaws.com/amazonlinux:latest" ]] 
-	  },
+          "Image" :  "0275309199/empirejob:latest",
           "Vcpus" : 1,
           "Memory" : 1000,
-          "Command" : [ "echo", "Hello world" ]
+          "Command" : []
         },
         "RetryStrategy" : {
           "Attempts" : 1
